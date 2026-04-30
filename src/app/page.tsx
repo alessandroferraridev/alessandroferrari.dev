@@ -1,11 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+const avatar = "https://avatars.githubusercontent.com/u/97349847";
+
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image className={styles.image} src="/profile_pic.jpg" width={64} height={64} alt="Profile picture" />
+        <Image className={styles.image} src={avatar} width={64} height={64} alt="Profile picture" />
         <div className={styles.title}>
           <h1>alessandro ferrari</h1>
           <h2>full stack developer</h2>
