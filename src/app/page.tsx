@@ -16,7 +16,7 @@ export default function Home() {
         />
         <div className={styles.title}>
           <h1>Alessandro Ferrari</h1>
-          <h2>software developer | linux enthusiast</h2>
+          <h2>software developer and linux enthusiast</h2>
         </div>
         <p className={styles.description}>
           With a self-taught background and years of hands-on experience, I
