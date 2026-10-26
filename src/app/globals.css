@@ -9,14 +9,16 @@
 :root {
   --background: #f5f2f2;
   --foreground: #2b2a2a;
+  --description: #6b6a6a;
   --highlight: #feb05d;
   --link: #5a7acd;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
+    --background: #111111;
     --foreground: #faeb92;
+    --description: #a0a0a0;
     --highlight: #9929ea;
     --link: #ff5fcf;
   }
