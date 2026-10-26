@@ -7,14 +7,36 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image className={styles.image} src={avatar} width={64} height={64} alt="Profile picture" />
+        <Image
+          className={styles.image}
+          src={avatar}
+          width={128}
+          height={128}
+          alt="Profile picture"
+        />
         <div className={styles.title}>
-          <h1>alessandro ferrari</h1>
-          <h2>full stack developer</h2>
+          <h1>Alessandro Ferrari</h1>
+          <h2>software developer | linux enthusiast</h2>
         </div>
-        <p className={styles.description}>i build web applications with modern technologies</p>
+        <p className={styles.description}>
+          With a self-taught background and years of hands-on experience, I
+          enjoy exploring new technologies, solving problems, and continuously
+          improving my skills. I believe in writing clean, maintainable code and
+          turning ideas into practical solutions.
+        </p>
         <div className={styles.links}>
-          <a href="mailto:fullmetalsandro@gmail.com">email</a> | <a target="_blank" href="https://www.linkedin.com/in/alessandro-ferrari-baronissi/">linkedin</a>
+          <a href="mailto:fullmetalsandro@gmail.com">email</a>
+          <span>/</span>
+          <a target="_blank" href="https://github.com/alessandroferraridev">
+            github
+          </a>
+          <span>/</span>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/alessandro-ferrari-baronissi/"
+          >
+            linkedin
+          </a>
         </div>
       </main>
     </div>
