@@ -13,6 +13,8 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
+  padding: 1rem;
 }
 
 .image {
@@ -37,7 +39,14 @@
   margin-bottom: 8px;
   text-align: center;
   color: var(--description);
-  max-width: 50vw;
+  width: min(38rem, 100%);
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .description {
+    font-size: 0.875rem;
+  }
 }
 
 .links {
