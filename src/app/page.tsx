@@ -25,7 +25,7 @@ export default function Home() {
           turning ideas into practical solutions.
         </p>
         <div className={styles.links}>
-          <a href="mailto:fullmetalsandro@gmail.com">email</a>
+          <a href="mailto:alessandroferrari.dev@gmail.com">email</a>
           <span>/</span>
           <a target="_blank" href="https://github.com/alessandroferraridev">
             github
